@@ -38,7 +38,7 @@ public class NoDuplo<T> {
 	
 	@Override
 	public String toString() {
-		return "NoDuplo [conteudo= " + conteudo + "]";
+		return "" + conteudo + "";
 	}
 	
 }
