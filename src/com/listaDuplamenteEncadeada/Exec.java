@@ -17,12 +17,14 @@ public class Exec {
 		
 		System.out.println(minhaLista);
 		
-		minhaLista.remove(1);
-		
+		minhaLista.remove(5);
 		
 		System.out.println(minhaLista);
 		
-
+		minhaLista.add(3, "99");
+		
+		System.out.println(minhaLista);
+		
 	}
 
 }

@@ -64,7 +64,9 @@ public class ListaDuplamenteEncadeada<T> {
 			if (primeiroNo != null) {
 				primeiroNo.setNoPrevio(null);
 				
-			} else {
+			} 
+			
+		} else {
 				
 				NoDuplo<T> noAlxiliar = getNo(index);
 				noAlxiliar.getNoPrevio().setNoProximo(noAlxiliar.getNoProximo());
@@ -75,9 +77,7 @@ public class ListaDuplamenteEncadeada<T> {
 				} else {
 					ultimoNo = noAlxiliar;
 				}
-			}
-			
-		}tamanhoLista--;
+			} tamanhoLista--;
 		
 	}
 	
